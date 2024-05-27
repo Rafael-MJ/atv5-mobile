@@ -4,11 +4,14 @@
 ## Desenvolvimento
 **211908** Rafael Modena Jakubovsky
 
+## Turma
+**AS022TSN1**
+
 ## Descrição
 O projeto foi criado no AndroidStudio, consiste em um código para colocar em prova o conhecimento em desenvolvimento mobile, criando um gerenciador alunos.
 
 ## Apresentação
-**
+https://youtu.be/wmnVkVPmFog
 
 ## Requisitos
 #### Você deverá gravar um vídeo usando o aplicativo:
