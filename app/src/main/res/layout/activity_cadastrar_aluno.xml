@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F1F2F5"
+    tools:context=".activities.CadastrarAlunoActivity">
+
+    <EditText
+        android:id="@+id/etRa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RA"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <EditText
+        android:id="@+id/etCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CEP"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <EditText
+        android:id="@+id/etLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Logradouro"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <EditText
+        android:id="@+id/etBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <EditText
+        android:id="@+id/etCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <EditText
+        android:id="@+id/etUf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UF"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <EditText
+        android:id="@+id/etComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@drawable/txt_background" />
+
+    <Button
+        style="@style/Btn"
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cadastrar" />
+
+</LinearLayout>
